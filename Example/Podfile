@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LYComponents_Example' do
+  pod 'LYComponents', :path => '../'
+
+  target 'LYComponents_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
